@@ -16,7 +16,7 @@ end
 puts "I made some songs, here's one title"
 puts Song.last.title
 
-20.times do
+100.times do
 Performance.create(karaoke_singer: KaraokeSinger.all.sample, song: Song.all.sample)
 end
 puts "i made some performances, here's one"
